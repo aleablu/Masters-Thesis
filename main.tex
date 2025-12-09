@@ -40,10 +40,13 @@ CleanAir Project is a proposal of an innovative way of monitoring ultrafine part
 Due to the infeasibility of collecting enough data by myself and also in order to have a valid scientific comparison, the data set produced by OpenSense reasearch team has been used to train and test the regressive model. Such data set is composed by almost 20 million measurements made by mobile stations across the city of Zurich for a year, and they also developed a regressive model to produce high-resolution UFPs maps. I developed a Convolutional Neural Network to predict UFPs concentrations in a portion of a city given the corresponding map image and some information about weather conditions.
 \newline
 The model's capabilities have been evaluated using the same metrics used by OpenSense and the results are really close to each other. This fact and also some fundamental differences in how the data are aggregated make CleanAir Project a promising work, worth of further investigations and studies.
+\newpage
+
 \tableofcontents
 
-\newpage
-\thispagestyle{plain}
+\listoftables
+
+\listoffigures
 
 \chapter{Introduction}
 This thesis project has been initially inspired by my participation to the 2017 Climathon in Alessandria, a hackaton whose focus is on proposing new ideas to help fighting climate change; in that event I had the first intuition that eventually brought this project to life: "Having a single value of pollution for a whole city is not descriptive enough but to have multiple values for different areas of the urban perimeter would require too much monitoring stations!"
@@ -1385,30 +1388,21 @@ Uscendo dalla sfera scolastica non posso che non ringraziare gli amici di una vi
 Infine il ringraziamento più importante e sentito va alle persone a cui devo tutto, la mia famiglia. Non penso che le parole possano bastare ad esprimere un sentimento così vasto, per cui ripropongo ciò che scrissi nella relazione finale della Laurea Triennale:
 \quote{\textit{Grazie a mio padre Aldo che mi insegna ad essere Uomo, grazie a mia madre Silvana che mi insegna ad Amare e grazie a mia sorella Elisa, che mi insegna a Ridere.}}
 
-\clearpage
 \begin{center}
     \thispagestyle{empty}
     \vspace*{\fill}
-    \textit{La Via  prosegue  senza fine \\
-    \addlinespace
+    \textit{La Via prosegue senza fine \\
         Lungi dall’uscio dal quale parte. \\
-    \addlinespace
         Ora la Via è fuggita avanti, \\
-    \addlinespace
         Devo inseguirla ad ogni costo \\
-    \addlinespace
         Rincorrendola con piedi alati \\
-    \addlinespace
         Sin all’incrocio con una più larga \\
-    \addlinespace
         Dove si uniscono piste e sentieri. \\
-    \addlinespace
         E poi dove andrò? Nessuno lo sa. \\
-    \addlinespace
         (J.R.R. Tolkien, Il Signore degli Anelli)}
     \vspace*{\fill}
 \end{center}
-\clearpage
+
 \printbibliography[heading=bibintoc,title={Bibliography}]
 
 
