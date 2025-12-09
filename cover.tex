@@ -1,0 +1,52 @@
+\documentclass[a4page, 12pt]{article} % Change to 'b5paper' if your thesis is B5
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{times} % Optional: matches standard Thesis fonts
+\usepackage{svg}
+% --- THE KEY PART: FORCING SYMMETRY ---
+% 1. Set equal margins (e.g., 2.5cm)
+% 2. Set bindingoffset to 0cm (removes the book gutter space)
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm, bindingoffset=0cm]{geometry}
+
+\begin{document}
+
+\begin{titlepage}
+  \voffset=8mm
+
+   \begin{center}
+     \includesvg[width=0.50\textwidth]{imgs/logo_upo.svg}
+    
+      \vspace*{2cm}
+
+      \LARGE{Dipartimento di Scienze e Innovazione Tecnologica}
+
+      \vspace*{0.5cm}
+
+      \LARGE{\bf Corso di Laurea Magistrale in Informatica}
+ 		
+      \vspace*{3cm}
+
+ 		  \Large{Tesi di Laurea Magistrale}
+
+      \vspace*{0.3cm}
+
+      \Huge{CleanAir Project: a Neural Network approach to cities pollution monitoring}
+
+      \vspace{25mm}
+      
+      \begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} l}
+        \large{\bf Relatore:} & \large{\bf Candidato:}\\
+        \large{Prof. Luigi Portinale} &  \large{Alessandro Abluton} \\
+        \large{\bf Correlatore:} & \\
+        \large{Prof. Attilio Giordana}
+      \end{tabular*}
+ 
+       \vfill
+ 
+      \large{\bf Anno Accademico 2019/2020}
+   \end{center}
+
+\end{titlepage}
+
+\end{document}
